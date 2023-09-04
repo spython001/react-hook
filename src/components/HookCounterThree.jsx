@@ -1,6 +1,8 @@
+//useState WITH OBJECTS
+
 import { useState } from 'react'
 
-export default function HookCounterThree() {
+function HookCounterThree() {
 
   const [name, setName] = useState({firstName: '', lastName: ''})
   
@@ -23,3 +25,5 @@ export default function HookCounterThree() {
    </form> 
   )
 }
+
+export default HookCounterThree;

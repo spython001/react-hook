@@ -1,4 +1,5 @@
 import './App.css'
+import ClassMouse from './components/ClassMouse'
 //import ClassCounterOne from './components/ClassCounterOne'
 //import HookCounterOne from './components/HookCounterOne'
 //import HookCounterFour from './components/HookCounterFour'
@@ -7,12 +8,13 @@ import './App.css'
 //import ClassCounter from './components/ClassCounter'
 //import HookCounter from './components/HookCounter'
 //import HookCounterTwo from './components/HookCounterTwo'
-import ClassCounterUE from './components/ClassCounterUE'
+//import ClassCounterUE from './components/ClassCounterUE'
+//import HookCounterUE from './components/HookCounterUE'
 
 function App() {
   return (
     <div className="App">
-      <ClassCounterUE />
+      <ClassMouse />
     </div>
     
   )
